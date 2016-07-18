@@ -19,14 +19,23 @@ h2, h3, h4 {
 
 #home {
   background-image: url('../assets/backgrounds/city-cityscape-mobile.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #portfolio {
   background-image: url('../assets/backgrounds/greybrick.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #contact {
   background-image: url('../assets/backgrounds/contact.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .background-div {
