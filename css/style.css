@@ -229,7 +229,7 @@ i {
 }
 
 .unit {
-  max-width: 270px
+  max-width: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
