@@ -10,11 +10,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
-=======
-  font-family: sans-serif;
->>>>>>> gh-pages
 }
 
 h2, h3, h4 {
@@ -54,10 +50,7 @@ h2, h3, h4 {
 
 .js {
   height: 400px;
-<<<<<<< HEAD
-=======
   overflow-y: scroll;
->>>>>>> gh-pages
 }
 
 /***-NAVIGATION-***/
@@ -111,6 +104,11 @@ h2, h3, h4 {
 
 ul.active {
   display: block;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.active li {
+  border-bottom: 1px solid #6c6c6c;
 }
 
 /***-MAIN STYLES-***/
@@ -123,10 +121,7 @@ ul.active {
 
 .contact-form {
   color: white;
-<<<<<<< HEAD
-=======
   margin-bottom: 20px;
->>>>>>> gh-pages
 }
 
 .color-2 {
@@ -146,13 +141,13 @@ ul.active {
       align-self: center;
 }
 
-.header {
+/*.header {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
+}*/
 
 i {
   margin-right: 0.4em;
@@ -164,12 +159,8 @@ i {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-<<<<<<< HEAD
-  margin: auto 20%;
-=======
-  margin: auto 15%;
->>>>>>> gh-pages
+    justify-content: center;
+    margin: auto 15%;
 }
 
 .shadow {
@@ -309,13 +300,6 @@ footer ul {
   padding: 20px;
 }
 
-.fixed-bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 
 @media (min-width: 500px) {
   .container {
@@ -338,14 +322,7 @@ footer ul {
 
   #home {
     background-image: url('../assets/backgrounds/city-cityscape.jpg');
-<<<<<<< HEAD
-  }
-
-  .color-2 {
-    background-color: #6e7beb;
-=======
->>>>>>> gh-pages
-  }
+}
 
   .nav-top a:hover {
     border-bottom: solid 2px black;
@@ -395,6 +372,13 @@ footer ul {
     -webkit-transform: translateX(0px) translateY(20px) scale(1.2);
             transform: translateX(0px) translateY(20px) scale(1.2);
     translate: down 20px;
+  }
+
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
 @media (min-width: 900px) {
