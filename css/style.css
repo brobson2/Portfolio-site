@@ -18,21 +18,21 @@ h2, h3, h4 {
 }
 
 #home {
-  background-image: url('assets/backgrounds/city-cityscape-mobile.jpg');
+  background-image: url('../assets/backgrounds/city-cityscape-mobile.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 
 #portfolio {
-  background-image: url('assets/backgrounds/greybrick.jpg');
+  background-image: url('../assets/backgrounds/greybrick.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 
 #contact {
-  background-image: url('assets/backgrounds/contact.jpg');
+  background-image: url('../assets/backgrounds/contact.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -282,7 +282,7 @@ footer ul {
   }
 
   #home {
-    background-image: url('assets/backgrounds/city-cityscape.jpg');
+    background-image: url('../assets/backgrounds/city-cityscape.jpg');
 }
 
   .nav-top a:hover {
