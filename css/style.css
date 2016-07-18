@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto|Secular+One');
+
+
 /***-BODY-BACKGROUNDS-***/
 
 body {
@@ -7,7 +10,11 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
+=======
+  font-family: sans-serif;
+>>>>>>> gh-pages
 }
 
 h2, h3, h4 {
@@ -47,6 +54,10 @@ h2, h3, h4 {
 
 .js {
   height: 400px;
+<<<<<<< HEAD
+=======
+  overflow-y: scroll;
+>>>>>>> gh-pages
 }
 
 /***-NAVIGATION-***/
@@ -112,10 +123,14 @@ ul.active {
 
 .contact-form {
   color: white;
+<<<<<<< HEAD
+=======
+  margin-bottom: 20px;
+>>>>>>> gh-pages
 }
 
 .color-2 {
-  background-color: #f2f2f2;
+  background-color: #6e7beb;
 }
 
 .fullscreen-space {
@@ -150,7 +165,11 @@ i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+<<<<<<< HEAD
   margin: auto 20%;
+=======
+  margin: auto 15%;
+>>>>>>> gh-pages
 }
 
 .shadow {
@@ -201,6 +220,7 @@ i {
   padding: 2%;
   margin: 1%;
   text-align: center;
+  line-height: 1.4;
 }
 
 .container {
@@ -318,10 +338,13 @@ footer ul {
 
   #home {
     background-image: url('../assets/backgrounds/city-cityscape.jpg');
+<<<<<<< HEAD
   }
 
   .color-2 {
     background-color: #6e7beb;
+=======
+>>>>>>> gh-pages
   }
 
   .nav-top a:hover {
@@ -402,8 +425,11 @@ footer ul {
       margin: unset;
     }
 
-    .footer {
-
+    .fixed-bottom {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
 
     .upper {
