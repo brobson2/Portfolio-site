@@ -74,6 +74,10 @@ body {
   display: none;
 }
 
+ul.active {
+  display: block;
+}
+
 /***-MAIN STYLES-***/
 
 .about-style {
