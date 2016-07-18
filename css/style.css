@@ -324,12 +324,6 @@ footer ul {
     translate: down 20px;
   }
 
-  .fixed-bottom {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
 
 @media (min-width: 900px) {
 
