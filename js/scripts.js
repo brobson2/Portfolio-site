@@ -1,7 +1,7 @@
 function jqUpdateSize(){
     var width = $(window).width();
     var height = $(window).height();
-    $('.js').css('height', ((height-100)-50) + 'px')
+    $('.js').css('height', ((height-99)-50) + 'px')
 };
 
 $(document).ready(jqUpdateSize);
