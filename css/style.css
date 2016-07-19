@@ -291,22 +291,22 @@ footer ul {
 #home {
   background-image: url('../assets/backgrounds/city-cityscape-mobile.jpg');
   background-position: center;
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover !important;
 }
 
 #portfolio {
   background-image: url('../assets/backgrounds/greybrick.jpg');
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 #contact {
   background-image: url('../assets/backgrounds/contact.jpg');
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 
